@@ -1,7 +1,7 @@
 
 {
   "name": "react-native-crasheye",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "react native crasheye module",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,11 @@
   ],
   "author": "cooclsee",
   "license": "MIT",
+  "homepage": "https://github.com/cooclsee/react-native-crasheye",
+  "repository": {
+    "url": "git+ssh://git@github.com/cooclsee/react-native-crasheye",
+    "type": "git"
+  },
   "peerDependencies": {
     "react-native": "*"
   }

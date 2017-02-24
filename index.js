@@ -1,6 +1,6 @@
 
 import { NativeModules } from 'react-native';
 
-const { Crasheye } = NativeModules;
+const { RNCrasheye } = NativeModules;
 
-export default Crasheye;
+export default RNCrasheye;
