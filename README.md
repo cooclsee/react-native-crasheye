@@ -41,7 +41,16 @@
 ```javascript
 import Crasheye from 'react-native-crasheye';
 
-// TODO: What to do with the module?
-Crasheye;
+Crasheye.init({
+	appKey: 'your appKey', // required
+	channelID: 'channelID', // option
+	appVersion: '', // option
+	flushOnlyOverWiFi: false, // default false
+	userIdentifier: '', // option
+	logging: {
+		lines: 1000, // less than 1000
+		filter: '', // option
+	}
+});
 ```
   
