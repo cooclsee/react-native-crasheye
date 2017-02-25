@@ -95,7 +95,7 @@ public class RNCrasheyeModule extends ReactContextBaseJavaModule {
      * 获取设备UUID
      */
     @ReactMethod
-    public void getCrasheyeUUID(Promise promise) {
+    public void getDeviceId(Promise promise) {
         String uuid = Crasheye.getCrasheyeUUID();
         promise.resolve(uuid);
     }
@@ -114,11 +114,11 @@ public class RNCrasheyeModule extends ReactContextBaseJavaModule {
      * 主动上报脚本信息
      *
      * @param errorTitle 错误脚本的标题
-     * @param stacktrace 堆栈信息
+     * @param exception 堆栈信息
      */
     @ReactMethod
-    public void sendScriptException(String errorTitle, String stacktrace) {
-        Crasheye.sendScriptException(errorTitle, stacktrace);
+    public void sendScriptException(String errorTitle, String exception) {
+        Crasheye.sendScriptException(errorTitle, exception, "Javascript");
     }
 
     /**
