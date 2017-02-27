@@ -96,7 +96,7 @@ Crasheye.leaveBreadcrumb('the breadcrumb content');
 
 ### Send Exception
 ```javascript
-Crasheye.sendScriptExceptionRequestWithTitle('errorTitle', 'exception content');
+Crasheye.sendScriptException('errorTitle', 'exception content');
 ```
 
 ### Add Extra Data

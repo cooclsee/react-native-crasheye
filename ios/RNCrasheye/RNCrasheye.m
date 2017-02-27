@@ -96,12 +96,3 @@ RCT_EXPORT_METHOD(addExtraData:(NSString*)key value:(NSString*)value){
 }
 
 @end
-
-
-
-
-
-
-
-
-
